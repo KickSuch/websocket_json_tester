@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Websocket JSON Tester</title>
+</head>
+<body>
+    <h1>Websocket JSON Tester</h1>
+    <label for="url_input">Websocket URL</label>
+    <input type="text" name="url_input" id="url_input">
+    <div class="side_by_side">
+        <div class="side">
+            <label for="body_input">Input Data</label>
+            <textarea name="body_input" id="body_input"></textarea>
+        </div>
+        <div class="side">
+            <label for="output">Output Data</label>
+            <textarea name="output" id="output" disabled></textarea>
+        </div>
+    </div>
+    <div class="row">
+        <button name="connect" id="connect">CONNECT</button>
+        <button name="send" id="send">SEND</button>
+    </div>
+    <script src="websocket_json_tester.js"></script>
+</body>
+</html>
